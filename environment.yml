@@ -14,5 +14,3 @@ dependencies:
   - SimPEG
   - pymatsolver
   - h5py
-  - pip:
-    - jupyterlab_hdf
