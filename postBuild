@@ -6,12 +6,13 @@ git clone https://github.com/JonjonHays/jupyterlab-hdf5
 cd jupyterlab-hdf5
 git checkout issue-#4-n-dim
 pip install .
-jlpm build
+jlpm install
 jupyter labextension install .
 cd ..
 
 git clone https://github.com/JonjonHays/jupyterlab-slicer
 cd jupyterlab-slicer
 pip install .
+jlpm install
 jupyter labextension install .
 cd ..
