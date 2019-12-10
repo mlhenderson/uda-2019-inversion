@@ -4,6 +4,7 @@ git clone https://github.com/JonjonHays/jupyterlab-hdf5
 cd jupyterlab-hdf5
 git checkout issue-#4-n-dim
 pip install .
+jlpm build
 jupyter labextension install .
 cd ..
 rm -rf jupyterlab-hdf5
