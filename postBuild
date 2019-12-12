@@ -10,8 +10,9 @@ jlpm install
 jupyter labextension install .
 cd ..
 
-git clone https://github.com/JonjonHays/jupyterlab-slicer
+git clone https://github.com/mlhenderson/jupyterlab-slicer
 cd jupyterlab-slicer
+git checkout responsive
 pip install .
 jlpm install
 jupyter labextension install .
