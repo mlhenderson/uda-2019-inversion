@@ -8,7 +8,7 @@ dependencies:
   - scipy
   - matplotlib
   - ipywidgets
-  - jupyterlab>=1.1.0
+  - jupyterlab>=1.1.0,<2.0
   - mkl
   - deepdish
   - SimPEG
