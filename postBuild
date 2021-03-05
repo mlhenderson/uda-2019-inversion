@@ -1,0 +1,19 @@
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@1.1.0
+
+cd /tmp
+
+git clone https://github.com/JonjonHays/jupyterlab-hdf5
+cd jupyterlab-hdf5
+git checkout issue-#4-n-dim
+pip install .
+jlpm install
+jupyter labextension install .
+cd ..
+
+git clone https://github.com/mlhenderson/jupyterlab-slicer
+cd jupyterlab-slicer
+git checkout responsive
+pip install .
+jlpm install
+jupyter labextension install .
+cd ..
